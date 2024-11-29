@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000; /* Fundo preto */
+            color: white; /* Texto branco */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Alinha tudo no centro horizontalmente */
+        }
+        header {
+            background-color: #111111; /* Fundo escuro para o cabeçalho */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            border-bottom: 2px solid #333; /* Linha divisória */
+        }
+        .content {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: #222222; /* Fundo escuro para o conteúdo */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Sombra sutil */
+            text-align: center; /* Centraliza o texto dentro do conteúdo */
+        }
+        .profile-photo {
+            max-width: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 3px solid #ffffff; /* Bordo branco na foto */
+            display: block;
+            margin-left: auto;
+            margin-right: auto; /* Centraliza a foto */
+        }
+        .description {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #004080; /* Azul escuro para o botão */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .button:hover {
+            background-color: #003366; /* Cor mais escura quando passar o mouse */
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+        }
+        .social-links a:hover {
+            color: #004080; /* Azul escuro para links de redes sociais */
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #111111; /* Fundo escuro para o rodapé */
+            color: white;
+            width: 100%;
+            border-top: 2px solid #333; /* Linha divisória no rodapé */
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site Pessoal</h1>
+        <h1>Hugo Lima</h1>
+        
+    </header>
+
+    <div class="content">
+        <img src="foto_pessoa.jpeg" alt="Foto de Perfil" class="profile-photo">
+        <p class="description">
+            Olá! Eu sou Hugo. Aluno do 4º período do curso de Ciência da Computação da Universidade de Maceió <a href="https://unima.afya.com.br/" target="_blank">(UNIMA-Afya)</a>.
+        </p>
+        <div class="social-links">
+            <a href="https://dio.me/users/hugo_ryan157" target="_blank" class="button">Certificados</a>
+            <a href="https://instagram.com/_hugoryan/" target="_blank" class="button">Instagram</a>
+            <a href="https://github.com/hugo-ryan/" target="_blank" class="button">GitHub</a>
+            <a href="https://www.linkedin.com/in/hugo-lima-402261339/" target="_blank" class="button">LinkedIn</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Site Pessoal. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
